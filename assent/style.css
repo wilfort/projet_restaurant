@@ -8,9 +8,10 @@
 color: #982478;}
 .navbar{background-color: yellowgreen}
 body{background-color: lightyellow}
-.navbar-brand{color: tomato}
+.navbar-brand{color: #e77561}
 #plan{width: auto;height: 400px;}
-
+.badge{background: #e77561;
+  color: yellow;}
 @media only screen and (max-width: 600px)
     {
           h1
