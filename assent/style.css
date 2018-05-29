@@ -1,2 +1,161 @@
-img {width: 200px;
+.jumbotron{background-image: url("../assent/img/fond.jpg");background-size:cover;
+    height: 500px;}
+    #navAct{background: yellow;
+        color: purple;}
+    #active{background: turquoise;
+        color: tomato}
+.list-group-item{background:#357941;
+color: #982478;}
+.navbar{background-color: yellowgreen}
+body{background-color: lightyellow}
+.navbar-brand{color: tomato}
+#plan{width: auto;height: 400px;}
+
+@media only screen and (max-width: 600px)
+    {
+          h1
+          {
+            font-size: 24px;
+          }
+          h2
+          {
+            font-size: 21px;
+          }
+          h3
+          {
+            font-size: 18px;
+          }
+          h4
+          {
+            font-size: 15px;
+          }
+          h5
+          {
+            font-size: 12px;
+          }
+          h6
+          {
+            font-size: 9px;
+          }
+          .taille {width: 90px;
+            height: 60px;}
+    }
+@media only screen and (min-width: 600px) and (max-width: 768px)
+    {
+          h1
+          {
+            font-size: 24px;
+          }
+          h2
+          {
+            font-size: 21px;
+          }
+          h3
+          {
+            font-size: 18px;
+          }
+          h4
+          {
+            font-size: 15px;
+          }
+          h5
+          {
+            font-size: 12px;
+          }
+          h6
+          {
+            font-size: 9px;
+          }
+          .taille {width: 120px;
+            height: 80px;}
+    }
+@media (min-width: 768px) and (max-width: 992px) {
+  
+  h1
+  {
+    font-size: 32px;
+  }
+  h2
+  {
+    font-size: 28px;
+  }
+  h3
+  {
+    font-size: 24px;
+  }
+  h4
+  {
+    font-size: 20px;
+  }
+  h5
+  {
+    font-size: 16px;
+  }
+  h6
+  {
+    font-size: 12px;
+  }
+  .taille {width: 170px;
+    height: 120px;}
+}
+@media (min-width: 992px) and (max-width: 1200px){
+  h1
+  {
+    font-size: 40px;
+  }
+  h2
+  {
+    font-size: 35px;
+  }
+  h3
+  {
+    font-size: 30px;
+  }
+  h4
+  {
+    font-size: 25px;
+  }
+  h5
+  {
+    font-size: 20px;
+  }
+  h6
+  {
+    font-size: 15px;
+  }
+  .taille {width: 200px;
     height: 150px;}
+}
+@media (min-width: 1200px) {
+  .container {
+    width: auto;
+    font-size: 15px;
+
+  }
+  h1
+  {
+    font-size: 45px;
+  }
+  h2
+  {
+    font-size: 40px;
+  }
+  h3
+  {
+    font-size: 35px;
+  }
+  h4
+  {
+    font-size: 30px;
+  }
+  h5
+  {
+    font-size: 25px;
+  }
+  h6
+  {
+    font-size: 20px;
+  }
+  .taille {width: 200px;
+    height: 150px;}
+}

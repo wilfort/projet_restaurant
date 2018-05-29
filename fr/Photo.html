@@ -8,7 +8,7 @@
     </head>
     <body>
             <header>
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <nav class="navbar navbar-expand navbar-light ">
                             <a class="navbar-brand">Scπza</a>
                             <div class="collapse navbar-collapse" id="navbarNavDropdown"></div>
                     <ul class="nav nav-pills nav-fill">
@@ -19,7 +19,7 @@
                                 <a class="nav-link" href="Carte.html">Carte</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="Photo.html">Photo</a>
+                                <a class="nav-link" id="navAct" href="Photo.html">Photo</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="Restaurants.html">Restaurants</a>
@@ -32,20 +32,20 @@
                 </nav>
             </header>
             <div class="container">
-            <div class="row">
+            <div class="row" >
                     <div class="col-12">
                             <div class="row">
                                     <div class="col-3">
-                                        <img class="img-responsive" src="../assent/img/index.jpeg">                    
+                                        <img class="img-responsive taille" src="../assent/img/index.jpeg">                    
                                     </div>
                                     <div class="col-3">
-                                        <img class="img-responsive" src="../assent/img/4f.jpeg">                            
+                                        <img class="img-responsive taille" src="../assent/img/4f.jpeg">                            
                                     </div>
                                     <div class="col-3">
-                                        <img class="img-responsive" src="../assent/img/4s.jpeg">                                   
+                                        <img class="img-responsive taille" src="../assent/img/4s.jpeg">                                   
                                     </div>
                                     <div class="col-3">
-                                        <img class="img-responsive" src="../assent/img/americian.jpeg">                                         
+                                        <img class="img-responsive taille" src="../assent/img/americian.jpeg">                                         
                                     </div>
                             </div>
                     </div>
@@ -55,16 +55,16 @@
                     <div class="col-12">
                             <div class="row">
                                     <div class="col-3">
-                                        <img class="img-responsive" src="../assent/img/BBQ.jpeg">                                     
+                                        <img class="img-responsive taille" src="../assent/img/BBQ.jpeg">                                     
                                     </div>
                                     <div class="col-3">
-                                        <img class="img-responsive" src="../assent/img/hawai.jpeg">                                  
+                                        <img class="img-responsive taille" src="../assent/img/hawai.jpeg">                                  
                                     </div>
                                     <div class="col-3">
-                                        <img class="img-responsive" src="../assent/img/index7.jpeg">                                 
+                                        <img class="img-responsive taille" src="../assent/img/index7.jpeg">                                 
                                     </div>
                                     <div class="col-3">
-                                        <img class="img-responsive" src="../assent/img/pizza.jpeg">                                         
+                                        <img class="img-responsive taille" src="../assent/img/pizza.jpeg">                                         
                                     </div>
                             </div>
                     </div>
@@ -74,33 +74,46 @@
                     <div class="col-12">
                             <div class="row">
                                     <div class="col-3">
-                                        <img class="img-responsive" src="../assent/img/pizza2.jpeg">                                     
+                                        <img class="img-responsive taille" src="../assent/img/pizza2.jpeg">                                     
                                     </div>
                                     <div class="col-3">
-                                        <img class="img-responsive" src="../assent/img/images3.jpeg">                                
+                                        <img class="img-responsive taille" src="../assent/img/images3.jpeg">                                
                                     </div>
                                     <div class="col-3">
-                                        <img class="img-responsive" src="../assent/img/images4.jpeg">                                
+                                        <img class="img-responsive taille" src="../assent/img/images4.jpeg">                                
                                     </div>
                                     <div class="col-3">
-                                        <img class="img-responsive" src="../assent/img/images5.jpeg">                                 
+                                        <img class="img-responsive taille" src="../assent/img/images5.jpeg">                                 
                                     </div>
                             </div>
                     </div>
             </div>
             <br>
             <div>
-                <img id="photo1" class='img-responsive' src='../assent/img/images6.jpeg'>
-                <img id="photo2" class='img-responsive' src='../assent/img/images7.jpeg'>
-                <img id="photo3" class='img-responsive' src="../assent/img/pain à l'ail.jpeg"></div>
+                    <div class="row">
+                            <div class="col-4 text-center">
+                                <img id="photo1" class='img-responsive taille' src='../assent/img/images6.jpeg'>
+                            </div>
+                            <div class="col-4 text-center">
+                                <img id="photo2" class='img-responsive taille' src='../assent/img/images7.jpeg'>
+                            </div>
+                            <div class="col-4 text-center">
+                                <img id="photo3" class='img-responsive taille' src="../assent/img/pain à l'ail.jpeg">
+                            </div>
+                    </div>
+            </div>
             <div>
-                <nav aria-label="Page navigation example">
-                    <ul class="pagination">
-                        <li class="page-item"><a class="page-link" onclick="choix1()">1</a></li>
-                        <li class="page-item"><a class="page-link" onclick="choix2()">2</a></li>
-                        <li class="page-item"><a class="page-link" onclick="choix3()">3</a></li>
-                    </ul>
-                </nav>
+                <div class="row">
+                    <div class="col-12 ">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination text-center">
+                                <li class="page-item"><a class="page-link" onclick="choix1()">1</a></li>
+                                <li class="page-item"><a class="page-link" onclick="choix2()">2</a></li>
+                                <li class="page-item"><a class="page-link" onclick="choix3()">3</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
             </div>
         </div>
         <script>
