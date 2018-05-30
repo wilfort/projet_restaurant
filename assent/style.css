@@ -9,12 +9,17 @@ color: #982478;}
 .navbar{background-color: yellowgreen}
 body{background-color: lightyellow}
 .navbar-brand{color: #e77561}
-#plan{width: auto;height: 400px;}
+#plan{width: auto;height: auto;}
 .badge{background: #e77561;
   color: yellow;}
+#postit{background: #00ff22;
+  color: purple;
+}
+
 @media only screen and (max-width: 600px)
     {
       body{font-size: 9px;}
+      #tail,#postit{font-size: 9px;}
           h1
           {
             font-size: 24px;
@@ -45,6 +50,7 @@ body{background-color: lightyellow}
 @media only screen and (min-width: 600px) and (max-width: 768px)
     {
       body{font-size: 9px;}
+      #tail,#postit{font-size: 9px;}
           h1
           {
             font-size: 24px;
@@ -74,6 +80,7 @@ body{background-color: lightyellow}
     }
 @media (min-width: 768px) and (max-width: 992px) {
   body{font-size: 12px;}
+  #tail,#postit{font-size: 12px;}
   h1
   {
     font-size: 32px;
@@ -103,6 +110,7 @@ body{background-color: lightyellow}
 }
 @media (min-width: 992px) and (max-width: 1200px){
   body{font-size: 15px;}
+  #tail,#postit{font-size: 15px;}
   h1
   {
     font-size: 40px;
@@ -132,6 +140,7 @@ body{background-color: lightyellow}
 }
 @media (min-width: 1200px) {
   body{font-size: 20px;}
+  #tail,#postit{font-size: 20px;}
   h1
   {
     font-size: 45px;
