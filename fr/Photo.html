@@ -1,6 +1,6 @@
 <html >
     <head>
-        <title></title>
+        <title>Scπza</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,114 +31,59 @@
                     </dic>
                 </nav>
             </header>
-            <div class="container">
+            <div class="container-fluid">
                 <br>
-            <div class="row" >
-                    <div class="col-12">
-                            <div class="row">
-                                    <div class="col-3">
-                                        <img class="img-responsive taille" src="../assent/img/index.jpeg">                    
-                                    </div>
-                                    <div class="col-3">
-                                        <img class="img-responsive taille" src="../assent/img/4f.jpeg">                            
-                                    </div>
-                                    <div class="col-3">
-                                        <img class="img-responsive taille" src="../assent/img/4s.jpeg">                                   
-                                    </div>
-                                    <div class="col-3">
-                                        <img class="img-responsive taille" src="../assent/img/americian.jpeg">                                         
-                                    </div>
-                            </div>
+                <div class="row" >
+                    <div class="col-sm-12 col-md-6"> 
+                        <img id="photo1" class='img-responsive taille mx-auto d-block' src='../assent/img/images1A.jpeg'>
                     </div>
-            </div>
-            <br>
-            <div class="row">
-                    <div class="col-12">
-                            <div class="row">
-                                    <div class="col-3">
-                                        <img class="img-responsive taille" src="../assent/img/BBQ.jpeg">                                     
-                                    </div>
-                                    <div class="col-3">
-                                        <img class="img-responsive taille" src="../assent/img/hawai.jpeg">                                  
-                                    </div>
-                                    <div class="col-3">
-                                        <img class="img-responsive taille" src="../assent/img/index7.jpeg">                                 
-                                    </div>
-                                    <div class="col-3">
-                                        <img class="img-responsive taille" src="../assent/img/pizza.jpeg">                                         
-                                    </div>
-                            </div>
+                    
+                    <div class="col-sm-12 col-md-6"> 
+                        <img id="photo2" class='img-responsive taille mx-auto d-block' src='../assent/img/images1B.jpeg'>
                     </div>
-            </div>
-            <br>
-            <div class="row">
-                    <div class="col-12">
-                            <div class="row">
-                                    <div class="col-3">
-                                        <img class="img-responsive taille" src="../assent/img/pizza2.jpeg">                                     
-                                    </div>
-                                    <div class="col-3">
-                                        <img class="img-responsive taille" src="../assent/img/images3.jpeg">                                
-                                    </div>
-                                    <div class="col-3">
-                                        <img class="img-responsive taille" src="../assent/img/images4.jpeg">                                
-                                    </div>
-                                    <div class="col-3">
-                                        <img class="img-responsive taille" src="../assent/img/images5.jpeg">                                 
-                                    </div>
-                            </div>
+                    
+                    <div class="col-sm-12 col-md-12"> 
+                        <img id="photo3" class='img-responsive taille mx-auto d-block' src="../assent/img/images1C.jpeg">
                     </div>
-            </div>
-            <br>
-            <div>
-                    <div class="row">
-                            <div class="col-4 text-center">
-                                <img id="photo1" class='img-responsive taille' src='../assent/img/images6.jpeg'>
-                            </div>
-                            <div class="col-4 text-center">
-                                <img id="photo2" class='img-responsive taille' src='../assent/img/images7.jpeg'>
-                            </div>
-                            <div class="col-4 text-center">
-                                <img id="photo3" class='img-responsive taille' src="../assent/img/pain à l'ail.jpeg">
-                            </div>
-                    </div>
-            </div>
-            <div>
-                <div class="row">
-                    <div class="col-12 ">
-                        <nav aria-label="Page navigation example">
-                            <ul class="pagination text-center">
-                                <li class="page-item"><a class="page-link" onclick="choix1()">1</a></li>
-                                <li class="page-item"><a class="page-link" onclick="choix2()">2</a></li>
-                                <li class="page-item"><a class="page-link" onclick="choix3()">3</a></li>
-                            </ul>
-                        </nav>
+                </div>    
+                <br>
+                           
+                <div>
+                    <div class="row ">
+                        <div class="col-12 ">
+                            <nav aria-label="Page navigation example" >
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item"><a class="page-link" onclick="choix('moins')">«</a></li>
+                                    <li class="page-item"><a class="page-link" onclick="choix(1)">1</a></li>
+                                    <li class="page-item"><a class="page-link" onclick="choix(2)">2</a></li>
+                                    <li class="page-item"><a class="page-link" onclick="choix(3)">3</a></li>
+                                    <li class="page-item"><a class="page-link" onclick="choix(4)">4</a></li>
+                                    <li class="page-item"><a class="page-link" onclick="choix(5)">5</a></li>
+                                    <li class="page-item"><a class="page-link" onclick="choix(6)">6</a></li>
+                                    <li class="page-item"><a class="page-link" onclick="choix(7)">7</a></li>
+                                    <li class="page-item"><a class="page-link" onclick="choix('plus')">»</a></li>
+                                </ul>
+                            </nav>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         <script>
-           
+           var count = 1;
        
-            
+            function choix(x){
+                if(x=='moins')
+                {
+                    if(count>1){count--;}else{count=1;}
+                    
+                    }else if(x=='plus'){
+                        if(count<7){
+                        count++;}else{count=7;}
+                        }else{count=x;}
 
-            function choix1() {
-                document.getElementById("photo1").src="../assent/img/images6.jpeg";
-                document.getElementById("photo2").src="../assent/img/images7.jpeg";
-                document.getElementById("photo3").src="../assent/img/pain à l'ail.jpeg";
-            }
-            
-
-            function choix2() {
-
-                document.getElementById("photo1").src="../assent/img/images8.jpeg";
-                document.getElementById("photo2").src="../assent/img/images9.jpeg";
-                document.getElementById("photo3").src="../assent/img/images10.jpeg";
-            }
-            function choix3() {
-                document.getElementById("photo1").src="../assent/img/images11.jpeg";
-                document.getElementById("photo2").src="../assent/img/images12.jpeg";
-                document.getElementById("photo3").src="../assent/img/images13.jpeg";
+                document.getElementById("photo1").src="../assent/img/images"+count+"A.jpeg";
+                document.getElementById("photo2").src="../assent/img/images"+count+"B.jpeg";
+                document.getElementById("photo3").src="../assent/img/images"+count+"C.jpeg";
             }
             
         
