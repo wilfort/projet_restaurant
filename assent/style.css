@@ -8,13 +8,15 @@
 color: #982478;}
 .navbar{background-color: yellowgreen}
 body{background-color: lightyellow}
-.navbar-brand{color: #e77561}
+#band{color: #e77561}
 #plan{width: auto;height: auto;}
 .badge{background: #e77561;
   color: yellow;}
 #postit{background: #00ff22;
   color: purple;
 }
+#navBR{
+  color: rgb(255, 0, 255);}
 
 @media only screen and (max-width: 600px)
     {
