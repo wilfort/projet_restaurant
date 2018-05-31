@@ -1,27 +1,31 @@
 .jumbotron{background-image: url("../assent/img/fond.jpg");background-size:cover;
     height: 500px;}
-    #navAct{background: yellow;
+    #navAct{background: rgb(255, 255, 0);
         color: purple;}
     #active{background: turquoise;
         color: tomato}
 .list-group-item{background:#00ff22;
 color: #982478;}
-.navbar{background-color: yellowgreen}
-body{background-color: lightyellow}
-#band{color: #e77561}
+.navbar{background-color: rgb(240, 191, 57)}
+body,#tail{background-color: rgb(236, 230, 145)}
+#band{color: #02643b}
 #plan{width: auto;height: auto;}
 .badge{background: #e77561;
-  color: yellow;}
+  color: rgb(255, 255, 0);}
 #postit{background: #00ff22;
   color: purple;
 }
 #navBR{
   color: rgb(255, 0, 255);}
+.colorAccueil{color: rgb(13, 0, 128);}
+.colorPhoto{color: rgb(128, 0, 75);}
 
+.colorContact,#colB{color: rgb(100, 128, 0);}
+.colorRestaurants{color: rgb(128, 47, 0);}
 @media only screen and (max-width: 600px)
     {
       body{font-size: 9px;}
-      #tail,#postit{font-size: 9px;}
+      #tail,#postit,#colB{font-size: 9px;}
           h1
           {
             font-size: 24px;
@@ -52,7 +56,7 @@ body{background-color: lightyellow}
 @media only screen and (min-width: 600px) and (max-width: 768px)
     {
       body{font-size: 9px;}
-      #tail,#postit{font-size: 9px;}
+      #tail,#postit,#colB{font-size: 9px;}
           h1
           {
             font-size: 24px;
@@ -82,7 +86,7 @@ body{background-color: lightyellow}
     }
 @media (min-width: 768px) and (max-width: 992px) {
   body{font-size: 12px;}
-  #tail,#postit{font-size: 12px;}
+  #tail,#postit,#colB{font-size: 12px;}
   h1
   {
     font-size: 32px;
@@ -112,7 +116,7 @@ body{background-color: lightyellow}
 }
 @media (min-width: 992px) and (max-width: 1200px){
   body{font-size: 15px;}
-  #tail,#postit{font-size: 15px;}
+  #tail,#postit,#colB{font-size: 15px;}
   h1
   {
     font-size: 40px;
@@ -142,7 +146,7 @@ body{background-color: lightyellow}
 }
 @media (min-width: 1200px) {
   body{font-size: 20px;}
-  #tail,#postit{font-size: 20px;}
+  #tail,#postit,#colB{font-size: 20px;}
   h1
   {
     font-size: 45px;
