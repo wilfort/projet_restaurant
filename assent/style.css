@@ -9,7 +9,7 @@
   color: #800080;
 }
 
-#active {
+.activeM {
   background: #40e0d0;
   color: #ff6347;
 }
@@ -70,7 +70,7 @@ a {
   #tail,
   #postit,
   #colB {
-    font-size: 9px;
+    font-size: 12px;
   }
   h1 {
     font-size: 24px;
@@ -82,13 +82,13 @@ a {
     font-size: 18px;
   }
   h4 {
-    font-size: 15px;
+    font-size: 16px;
   }
   h5 {
-    font-size: 12px;
+    font-size: 14px;
   }
   h6 {
-    font-size: 9px;
+    font-size: 12px;
   }
   .taille {
     width: 250px;
@@ -107,7 +107,7 @@ a {
   #tail,
   #postit,
   #colB {
-    font-size: 9px;
+    font-size: 12px;
   }
   h1 {
     font-size: 24px;
@@ -119,13 +119,13 @@ a {
     font-size: 18px;
   }
   h4 {
-    font-size: 15px;
+    font-size: 16px;
   }
   h5 {
-    font-size: 12px;
+    font-size: 14px;
   }
   h6 {
-    font-size: 9px;
+    font-size: 12px;
   }
   .taille {
     width: 500px;
@@ -139,7 +139,7 @@ a {
 
 @media (min-width: 768px) and (max-width: 992px) {
   body {
-    font-size: 12px;
+    font-size: 14px;
   }
   #tail,
   #postit,
@@ -147,22 +147,22 @@ a {
     font-size: 12px;
   }
   h1 {
-    font-size: 32px;
+    font-size: 34px;
   }
   h2 {
-    font-size: 28px;
+    font-size: 30px;
   }
   h3 {
-    font-size: 24px;
+    font-size: 26px;
   }
   h4 {
-    font-size: 20px;
+    font-size: 22px;
   }
   h5 {
-    font-size: 16px;
+    font-size: 18px;
   }
   h6 {
-    font-size: 12px;
+    font-size: 14px;
   }
   .taille {
     width: 300px;
