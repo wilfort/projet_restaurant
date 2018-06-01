@@ -1,11 +1,10 @@
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
-  '../../fr/Accueil.html',
-  '../../fr/Carte.html',
-  '../../fr/Contact.html',
-  '../../fr/Photo.html',
-  '../../fr/Restaurants.html',
-  '../../', // Alias for index.html
+  '../../index.html',
+  '../../Carte.html',
+  '../../Contact.html',
+  '../../Photo.html',
+  '../../Restaurants.html',
   '../../assent/style.css',
   '../../assent/img/fond.jpg',
   '../../assent/img/images1A.jpeg',
@@ -35,6 +34,7 @@ var urlsToCache = [
   '../assent/js/manifest.json',
   '../../assent/js/service-worker.js'
 ];
+/*
 self.addEventListener('install', function (event) {
   // Perform install steps
   event.waitUntil(
@@ -104,4 +104,4 @@ cache.addAll(urlsToPrefetch.map(function (urlToPrefetch) {
   });
 })).then(function () {
   console.log('All resources have been fetched and cached.');
-});
+});*/
