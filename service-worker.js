@@ -1,6 +1,7 @@
 var CACHENAME = 'my-site-step-v1';
 var dataCacheName = 'my-site-v1';
 var urlsToCache = [
+  '../../',
   '../../index.html',
   '../../Carte.html',
   '../../Contact.html',
@@ -30,10 +31,8 @@ var urlsToCache = [
   '../../assent/img/images7B.jpeg',
   '../../assent/img/images7C.jpeg',
   '../../assent/js/snippet.js',
-  '../assent/img/icons-192.png',
-  '../assent/img/icons-512.png',
-  '../assent/js/manifest.json',
-  '../../assent/js/service-worker.js'
+  '../../assent/img/icons-192.png',
+  '../../assent/img/icons-512.png'
 ];
 self.addEventListener('install', function(e) {
   console.log('[ServiceWorker] Install');
@@ -57,7 +56,16 @@ self.addEventListener('activate', function(e) {
     })
   );
   return self.clients.claim();
-});
+}); 
+/*self.addEventListener('fetch', function(e) {
+  console.log('[ServiceWorker] Fetch', e.request.url);
+  e.respondWith(
+    caches.match(e.request).then(function(response) {
+      return response || fetch(e.request);
+    })
+  );
+});*/
+
 self.addEventListener('fetch', function(e) {
   console.log('[Service Worker] Fetch', e.request.url);
   var dataUrl = 'https://query.yahooapis.com/v1/public/yql';
