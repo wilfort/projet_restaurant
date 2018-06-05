@@ -99,7 +99,7 @@ a {
     height: 200px;
   }
   #navbardrop{visibility: visible;}
-  #navbarNavDropdown{visibility: hidden;}
+  #navbardropM{visibility: hidden;}
 }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
@@ -138,7 +138,7 @@ a {
     height: 200px;
   }
   #navbardrop{visibility: visible;}
-  #navbarNavDropdown{visibility: hidden;}
+  #navbardropM{visibility: hidden;}
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -177,7 +177,7 @@ a {
     height: 300px;
   }
   #navbardrop{visibility: hidden;}
-  #navbarNavDropdown{visibility: visible;}
+  #navbardropM{visibility: visible;}
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -216,7 +216,7 @@ a {
     height: 350px;
   }
   #navbardrop{visibility: hidden;}
-  #navbarNavDropdown{visibility: visible;}
+  #navbardropM{visibility: visible;}
 }
 
 @media (min-width: 1200px) {
@@ -255,5 +255,5 @@ a {
     height: 500px;
   }
   #navbardrop{visibility: hidden;}
-  #navbarNavDropdown{visibility: visible;}
+  #navbardropM{visibility: visible;}
 }
