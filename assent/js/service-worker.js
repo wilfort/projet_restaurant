@@ -1,4 +1,4 @@
-var CACHE_NAME = 'my-site-step-v1';
+var CACHENAME = 'my-site-step-v1';
 var dataCacheName = 'my-site-v1';
 var urlsToCache = [
   '../../index.html',
@@ -38,7 +38,7 @@ var urlsToCache = [
 self.addEventListener('install', function(e) {
   console.log('[ServiceWorker] Install');
   e.waitUntil(
-    caches.open(CACHE_NAME).then(function(cache) {
+    caches.open(CACHENAME).then(function(cache) {
       console.log('[ServiceWorker] Caching app shell');
       return cache.addAll(urlsToCache);
     })
@@ -49,7 +49,7 @@ self.addEventListener('activate', function(e) {
   e.waitUntil(
     caches.keys().then(function(keyList) {
       return Promise.all(keyList.map(function(key) {
-        if (key !== CACHE_NAME && key !== dataCacheName) {
+        if (key !== CACHENAME && key !== dataCacheName) {
           console.log('[ServiceWorker] Removing old cache', key);
           return caches.delete(key);
         }
