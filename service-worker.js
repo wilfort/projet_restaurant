@@ -1,7 +1,7 @@
 var CACHENAME = 'my-site-step-v1';
 var dataCacheName = 'my-site-v1';
-var urlsToCache = [/*
-  '/',
+var urlsToCache = [
+  '/'/*,
   '/projet_restaurant/index.html',
   '/projet_restaurant/Carte.html',
   '/projet_restaurant/Contact.html',
