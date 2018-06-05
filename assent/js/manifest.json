@@ -1,7 +1,22 @@
 {
-  "short_name": "Maps",
-  "name": "Google Maps",
+  "short_name": "Restaurants",
+  "name": "Restaurants",
   "icons": [{
+    "src": "../assent/img/icons-192.png",
+    "type": "image/png",
+    "sizes": "128x128"
+  },
+  {
+    "src": "../assent/img/icons-192.png",
+    "type": "image/png",
+    "sizes": "144x144"
+  },
+  {
+      "src": "../assent/img/icons-192.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
       "src": "../assent/img/icons-192.png",
       "type": "image/png",
       "sizes": "192x192"
@@ -9,12 +24,16 @@
     {
       "src": "../assent/img/icons-512.png",
       "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "../assent/img/icons-512.png",
+      "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": "/maps/?source=pwa",
+  "start_url": "../../index.html",
   "background_color": "#3367D6",
   "display": "standalone",
-  "scope": "/maps/",
   "theme_color": "#3367D6"
 }
