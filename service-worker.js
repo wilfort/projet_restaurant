@@ -1,7 +1,7 @@
 var CACHENAME = 'my-site-step-v1';
 var dataCacheName = 'my-site-v1';
 var urlsToCache = [
-  '/projet_restaurant/'/*,
+  '/projet_restaurant/',
   '/projet_restaurant/index.html',
   '/projet_restaurant/Carte.html',
   '/projet_restaurant/Contact.html',
@@ -32,7 +32,7 @@ var urlsToCache = [
   '/projet_restaurant/assent/img/images7C.jpeg',
   '/projet_restaurant/assent/js/snippet.js',
   '/projet_restaurant/assent/img/icons-192.png',
-  '/projet_restaurant/assent/img/icons-512.png'*/
+  '/projet_restaurant/assent/img/icons-512.png'
 ];
 self.addEventListener('install', function(e) {
   console.log('[ServiceWorker] Install');
