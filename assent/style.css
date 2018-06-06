@@ -98,7 +98,7 @@ a {
     width: 300px;
     height: 200px;
   }
-  #navbardrop{visibility: visible;}
+  #navbardropD{visibility: visible;}
   #navbardropM{visibility: hidden;}
 }
 
@@ -137,7 +137,7 @@ a {
     width: 350px;
     height: 200px;
   }
-  #navbardrop{visibility: visible;}
+  #navbardropD{visibility: visible;}
   #navbardropM{visibility: hidden;}
 }
 
@@ -176,7 +176,7 @@ a {
     width: 350px;
     height: 300px;
   }
-  #navbardrop{visibility: hidden;}
+  #navbardropD{visibility: hidden;}
   #navbardropM{visibility: visible;}
 }
 
@@ -215,7 +215,7 @@ a {
     width: 400px;
     height: 350px;
   }
-  #navbardrop{visibility: hidden;}
+  #navbardropD{visibility: hidden;}
   #navbardropM{visibility: visible;}
 }
 
@@ -254,6 +254,6 @@ a {
     width: auto;
     height: 500px;
   }
-  #navbardrop{visibility: hidden;}
+  #navbardropD{visibility: hidden;}
   #navbardropM{visibility: visible;}
 }
