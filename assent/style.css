@@ -1,176 +1,249 @@
-.jumbotron{background-image: url("../assent/img/fond.jpg");background-size:cover;
-    height: 500px;}
-    #navAct{background: rgb(255, 255, 0);
-        color: purple;}
-    #active{background: turquoise;
-        color: tomato}
-.list-group-item{background:#00ff22;
-color: #982478;}
-.navbar{background-color: rgb(240, 191, 57)}
-body,#tail{background-color: rgb(236, 230, 145)}
-#band{color: #02643b}
-#plan{width: auto;height: auto;}
-.badge{background: #e77561;
-  color: rgb(255, 255, 0);}
-#postit{background: #00ff22;
-  color: purple;
+.jumbotron {
+  background-image: url("../assent/img/fond.jpg");
+  background-size: cover;
+  height: 500px;
 }
-#navBR{
-  color: rgb(255, 0, 255);}
-.colorAccueil{color: rgb(13, 0, 128);}
-.colorPhoto{color: rgb(128, 0, 75);}
 
-.colorContact,#colB{color: rgb(100, 128, 0);}
-.colorRestaurants{color: rgb(128, 47, 0);}
-@media only screen and (max-width: 600px)
-    {
-      body{font-size: 9px;}
-      #tail,#postit,#colB{font-size: 9px;}
-          h1
-          {
-            font-size: 24px;
-          }
-          h2
-          {
-            font-size: 21px;
-          }
-          h3
-          {
-            font-size: 18px;
-          }
-          h4
-          {
-            font-size: 15px;
-          }
-          h5
-          {
-            font-size: 12px;
-          }
-          h6
-          {
-            font-size: 9px;
-          }
-          .taille {width: 400px;
-            height: 300px;}
-    }
-@media only screen and (min-width: 600px) and (max-width: 768px)
-    {
-      body{font-size: 9px;}
-      #tail,#postit,#colB{font-size: 9px;}
-          h1
-          {
-            font-size: 24px;
-          }
-          h2
-          {
-            font-size: 21px;
-          }
-          h3
-          {
-            font-size: 18px;
-          }
-          h4
-          {
-            font-size: 15px;
-          }
-          h5
-          {
-            font-size: 12px;
-          }
-          h6
-          {
-            font-size: 9px;
-          }
-          .taille {width: 500px;
-            height: 375px;}
-    }
-@media (min-width: 768px) and (max-width: 992px) {
-  body{font-size: 12px;}
-  #tail,#postit,#colB{font-size: 12px;}
-  h1
-  {
-    font-size: 32px;
+#navAct {
+  background: #ffff00;
+  color: #800080;
+}
+
+#active {
+  background: #40e0d0;
+  color: #ff6347;
+}
+
+.list-group-item {
+  background: #00ff22;
+  color: #982478;
+}
+
+.navbar {
+  background: #f0bf39;
+}
+
+body,
+#tail {
+  background: #ece691;
+}
+
+#band {
+  color: #02643b;
+}
+
+.badge {
+  background: #e77561;
+  color: #ffff00;
+}
+
+#postit {
+  background: #00ff22;
+  color: #800080;
+}
+
+a {
+  color: #ff00ff;
+}
+
+.colorAccueil {
+  color: #0d0080;
+}
+
+.colorPhoto {
+  color: #80004b;
+}
+
+.colorContact,
+#colB {
+  color: #648000;
+}
+
+.colorRestaurants {
+  color: #802f00;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 9px;
   }
-  h2
-  {
-    font-size: 28px;
+  #tail,
+  #postit,
+  #colB {
+    font-size: 9px;
   }
-  h3
-  {
+  h1 {
     font-size: 24px;
   }
-  h4
-  {
-    font-size: 20px;
+  h2 {
+    font-size: 21px;
   }
-  h5
-  {
-    font-size: 16px;
+  h3 {
+    font-size: 18px;
   }
-  h6
-  {
-    font-size: 12px;
-  }
-  .taille {width: 300px;
-    height: 225px;}
-}
-@media (min-width: 992px) and (max-width: 1200px){
-  body{font-size: 15px;}
-  #tail,#postit,#colB{font-size: 15px;}
-  h1
-  {
-    font-size: 40px;
-  }
-  h2
-  {
-    font-size: 35px;
-  }
-  h3
-  {
-    font-size: 30px;
-  }
-  h4
-  {
-    font-size: 25px;
-  }
-  h5
-  {
-    font-size: 20px;
-  }
-  h6
-  {
+  h4 {
     font-size: 15px;
   }
-  .taille {width: 400px;
-    height: 300px;}
+  h5 {
+    font-size: 12px;
+  }
+  h6 {
+    font-size: 9px;
+  }
+  .taille {
+    width: 400px;
+    height: 300px;
+  }
+  #plan {
+    width: 300px;
+    height: 200px;
+  }
 }
-@media (min-width: 1200px) {
-  body{font-size: 20px;}
-  #tail,#postit,#colB{font-size: 20px;}
-  h1
-  {
-    font-size: 45px;
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  body {
+    font-size: 9px;
   }
-  h2
-  {
-    font-size: 40px;
+  #tail,
+  #postit,
+  #colB {
+    font-size: 9px;
   }
-  h3
-  {
-    font-size: 35px;
+  h1 {
+    font-size: 24px;
   }
-  h4
-  {
-    font-size: 30px;
+  h2 {
+    font-size: 21px;
   }
-  h5
-  {
-    font-size: 25px;
+  h3 {
+    font-size: 18px;
   }
-  h6
-  {
+  h4 {
+    font-size: 15px;
+  }
+  h5 {
+    font-size: 12px;
+  }
+  h6 {
+    font-size: 9px;
+  }
+  .taille {
+    width: 500px;
+    height: 375px;
+  }
+  #plan {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  body {
+    font-size: 12px;
+  }
+  #tail,
+  #postit,
+  #colB {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h4 {
     font-size: 20px;
   }
-  .taille {width:500px;
-    height: 375px;}
+  h5 {
+    font-size: 16px;
+  }
+  h6 {
+    font-size: 12px;
+  }
+  .taille {
+    width: 300px;
+    height: 225px;
+  }
+  #plan {
+    width: 350px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  body {
+    font-size: 15px;
+  }
+  #tail,
+  #postit,
+  #colB {
+    font-size: 15px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 25px;
+  }
+  h5 {
+    font-size: 20px;
+  }
+  h6 {
+    font-size: 15px;
+  }
+  .taille {
+    width: 400px;
+    height: 300px;
+  }
+  #plan {
+    width: 400px;
+    height: 350px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 20px;
+  }
+  #tail,
+  #postit,
+  #colB {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 35px;
+  }
+  h4 {
+    font-size: 30px;
+  }
+  h5 {
+    font-size: 25px;
+  }
+  h6 {
+    font-size: 20px;
+  }
+  .taille {
+    width: 500px;
+    height: 375px;
+  }
+  #plan {
+    width: auto;
+    height: 500px;
+  }
 }
