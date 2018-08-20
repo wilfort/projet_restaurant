@@ -9,13 +9,13 @@
   color: #800080;
 }
 
-#active {
+.activeM {
   background: #40e0d0;
   color: #ff6347;
 }
 
-.list-group-item {
-  background: #00ff22;
+.menu {
+  background: #00ff24;
   color: #982478;
 }
 
@@ -70,7 +70,7 @@ a {
   #tail,
   #postit,
   #colB {
-    font-size: 9px;
+    font-size: 12px;
   }
   h1 {
     font-size: 24px;
@@ -82,22 +82,24 @@ a {
     font-size: 18px;
   }
   h4 {
-    font-size: 15px;
+    font-size: 16px;
   }
   h5 {
-    font-size: 12px;
+    font-size: 14px;
   }
   h6 {
-    font-size: 9px;
+    font-size: 12px;
   }
   .taille {
-    width: 400px;
-    height: 300px;
+    width: 250px;
+    height: 200px;
   }
   #plan {
     width: 300px;
     height: 200px;
   }
+  #navbardropD{visibility: visible;}
+  #navbardropM{visibility: hidden;}
 }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
@@ -107,7 +109,7 @@ a {
   #tail,
   #postit,
   #colB {
-    font-size: 9px;
+    font-size: 12px;
   }
   h1 {
     font-size: 24px;
@@ -119,13 +121,13 @@ a {
     font-size: 18px;
   }
   h4 {
-    font-size: 15px;
+    font-size: 16px;
   }
   h5 {
-    font-size: 12px;
+    font-size: 14px;
   }
   h6 {
-    font-size: 9px;
+    font-size: 12px;
   }
   .taille {
     width: 500px;
@@ -135,11 +137,13 @@ a {
     width: 350px;
     height: 200px;
   }
+  #navbardropD{visibility: visible;}
+  #navbardropM{visibility: hidden;}
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
   body {
-    font-size: 12px;
+    font-size: 14px;
   }
   #tail,
   #postit,
@@ -147,22 +151,22 @@ a {
     font-size: 12px;
   }
   h1 {
-    font-size: 32px;
+    font-size: 34px;
   }
   h2 {
-    font-size: 28px;
+    font-size: 30px;
   }
   h3 {
-    font-size: 24px;
+    font-size: 26px;
   }
   h4 {
-    font-size: 20px;
+    font-size: 22px;
   }
   h5 {
-    font-size: 16px;
+    font-size: 18px;
   }
   h6 {
-    font-size: 12px;
+    font-size: 14px;
   }
   .taille {
     width: 300px;
@@ -172,6 +176,8 @@ a {
     width: 350px;
     height: 300px;
   }
+  #navbardropD{visibility: hidden;}
+  #navbardropM{visibility: visible;}
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -209,6 +215,8 @@ a {
     width: 400px;
     height: 350px;
   }
+  #navbardropD{visibility: hidden;}
+  #navbardropM{visibility: visible;}
 }
 
 @media (min-width: 1200px) {
@@ -246,4 +254,6 @@ a {
     width: auto;
     height: 500px;
   }
+  #navbardropD{visibility: hidden;}
+  #navbardropM{visibility: visible;}
 }
