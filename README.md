@@ -1,4 +1,4 @@
-# projet restaurant
+# Projet Restaurant
 
 un challenge de réalisation d'un site web de 5 pages,
 avec les techno html, css, bootstarp.
